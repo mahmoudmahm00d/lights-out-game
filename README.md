@@ -2,7 +2,7 @@
 
 A classic puzzle game implementation where players must turn off all the lights on a grid by clicking them. Each click toggles the clicked light and its adjacent neighbors.
 
-![Game Preview](./assets/game-preview.png)
+![Game Preview](./public/og-image.png)
 
 ## 🎮 How to Play
 
@@ -19,8 +19,6 @@ A classic puzzle game implementation where players must turn off all the lights 
 - **Hint System**: Get hints when you're stuck
 - **Level Generator**: Procedurally generated solvable puzzles
 - **Responsive Design**: Optimized for desktop and mobile devices
-- **Dark/Light Theme**: Toggle between themes for comfortable playing
-- **Sound Effects**: Optional audio feedback for clicks and victories
 - **Statistics**: Track your wins, best times, and average moves
 
 ## 🛠️ Tech Stack
@@ -74,17 +72,20 @@ lights-out-game/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/yourusername/lights-out-game.git
+   git clone https://github.com/mahmoudmahm00d/lights-out-game.git
    cd lights-out-game
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -98,12 +99,8 @@ lights-out-game/
 npm run build
 ```
 
-### Running Tests
-
 ```bash
-npm test              # Run all tests
-npm run test:watch    # Run tests in watch mode
-npm run test:coverage # Run tests with coverage report
+npm run start
 ```
 
 ## 🎯 Game Algorithm
@@ -120,8 +117,6 @@ The Lights Out puzzle is based on linear algebra over GF(2) (binary field). Key 
 ### Adding New Features
 
 1. **New Grid Sizes**: Modify the `GRID_SIZES` constant in `game.js`
-2. **Custom Themes**: Add new theme definitions in `themes.css`
-3. **Sound Effects**: Add audio files to `assets/sounds/` and update `ui.js`
 
 ### Code Style
 
@@ -134,17 +129,7 @@ The Lights Out puzzle is based on linear algebra over GF(2) (binary field). Key 
 
 - Game state is optimized using bit manipulation
 - Efficient algorithms for puzzle generation and solving
-- Lazy loading for assets and sounds
 - Debounced resize handlers for responsive design
-
-## 📊 Statistics & Analytics
-
-The game tracks:
-- Games played and won
-- Best completion times
-- Average number of moves
-- Preferred grid sizes
-- Theme preferences
 
 All data is stored locally and never transmitted.
 
@@ -171,10 +156,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Live Demo**: [Play the game](https://yourusername.github.io/lights-out-game)
-- **Report Bug**: [GitHub Issues](https://github.com/yourusername/lights-out-game/issues)
-- **Request Feature**: [GitHub Issues](https://github.com/yourusername/lights-out-game/issues)
+- **Live Demo**: [Play the game](https://mahmoudmahm00d.github.io/lights-out-game)
+- **Report Bug**: [GitHub Issues](https://github.com/mahmoudmahm00d/lights-out-game/issues)
+- **Request Feature**: [GitHub Issues](https://github.com/mahmoudmahm00d/lights-out-game/issues)
 
 ---
 
-**Made with ❤️ by [Your Name](https://github.com/yourusername)**
+**Made with ❤️ by [Mahmoud](https://github.com/mahmoudmahm00d)**
